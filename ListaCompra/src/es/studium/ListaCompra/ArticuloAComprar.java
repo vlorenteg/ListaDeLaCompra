@@ -45,6 +45,8 @@ public class ArticuloAComprar implements Serializable {
     //Representa el objeto como cadena para mostrarlo
     @Override
     public String toString() {
-        return "ArticuloAComprar{" + "descripcion='" + descripcion + '\'' + ", cantidad=" + cantidad + ", unidad='" + unidad + '\'' +'}';
+        return "ArticuloAComprar{" + "descripcion='" + descripcion + '\'' + ","
+        		+ " cantidad=" + cantidad + ", unidad='" + unidad + '\'' +'}';
     }
 }
+
